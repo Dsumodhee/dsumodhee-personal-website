@@ -6,8 +6,8 @@
     </div>
 
     <div class="content">
-        <h1>{{ .Site.Author.name | default "Stip" }}</h1>
-        <h2>{{ .Site.Author.bio | default "Hugo theme to introduce yourself" }}</h2>
+        <h2>{{ .Site.Author.name | default "Stip" }}</h2>
+        <h3>{{ .Site.Author.bio | default "Hugo theme to introduce yourself" }}</h3>
         <p>{{- partial "introduction.html" . -}}</p>
 
         <div class="links">
