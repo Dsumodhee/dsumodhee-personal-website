@@ -1,11 +1,30 @@
+
+baseURL = "https://dsumodhee.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Dr Dayyanah Sumodhee"
 theme = "stip"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
     name = "Dr Dayyanah Sumodhee"
     bio = "Health Psychologist"
 
 [params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:dayyanah.su@gmail.com"
+        
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/DSumodhee"
+
     [[params.links]]
         icon = "github"
         title = "Github"
         url = "https://github.com/Dsumodhee"
+
