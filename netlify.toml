@@ -4,4 +4,4 @@
 
 [build]
   publish = "public"
-  command = "hugo server -t stip && hugo --minify"
+  command = "hugo -t stip --minify"
