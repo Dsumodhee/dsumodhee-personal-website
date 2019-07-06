@@ -3,3 +3,9 @@ theme = "stip"
 [Author]
     name = "Dr Dayyanah Sumodhee"
     bio = "Health Psychologist"
+
+[params]
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/Dsumodhee"
