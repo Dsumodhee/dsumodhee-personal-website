@@ -4,4 +4,4 @@
 
 [build]
   publish = "public"
-  command = "git clone https://github.com/Dsumodhee/stip-hugo.git themes/stip && hugo server -t stip && hugo --minify"
+  command = "hugo server -t stip && hugo --minify"
