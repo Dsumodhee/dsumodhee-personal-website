@@ -1,0 +1,3 @@
+[submodule "themes/stip"]
+	path = themes/stip
+	url = https://github.com/Dsumodhee/stip-hugo.git
